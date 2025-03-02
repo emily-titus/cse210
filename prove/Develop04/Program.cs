@@ -12,7 +12,7 @@ class Program
         System.Console.WriteLine("Welcome to your Mindfulness Program!");
         while (input != 4)
         {
-            System.Console.WriteLine("1. Breathing Activity \n2. Listing Activity\n3.Reflection Activity\n4. Quit");
+            System.Console.WriteLine("1. Breathing Activity \n2. Listing Activity\n3. Reflection Activity\n4. Quit");
             input = int.Parse(Console.ReadLine());
             if (input == 1)
             {
