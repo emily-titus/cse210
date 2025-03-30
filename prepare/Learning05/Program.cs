@@ -1,9 +1,11 @@
 using System;
+using System.Reflection.Metadata;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        Square square = new Square("blue", 5);
+        System.Console.WriteLine($"Color: {square.GetColor()}, Area: {square.GetArea()}");
     }
 }
